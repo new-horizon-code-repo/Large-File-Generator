@@ -1,0 +1,44 @@
+{
+  "name": "big-file-generator",
+  "version": "1.0.0",
+  "description": "A fast, memory-efficient utility for generating large test files of any size and type",
+  "main": "generate.js",
+  "bin": {
+    "big-file-generator": "./generate.js",
+    "generate-file": "./generate.js"
+  },
+  "scripts": {
+    "generate": "node generate.js",
+    "start": "node generate.js",
+    "help": "node generate.js --help",
+    "version": "node generate.js --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/big-file-generator.git"
+  },
+  "keywords": [
+    "file",
+    "generator",
+    "testing",
+    "upload",
+    "test-data",
+    "large-files",
+    "file-upload",
+    "bandwidth-testing",
+    "storage-testing",
+    "test-files",
+    "dummy-files",
+    "file-creation"
+  ],
+  "author": "New Horizon Code PTY LTD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/big-file-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/big-file-generator#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
+
